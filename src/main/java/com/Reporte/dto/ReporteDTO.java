@@ -1,6 +1,8 @@
 package com.Reporte.dto;
 
-public class ReporteDTO {
+import org.springframework.hateoas.RepresentationModel;
+
+public class ReporteDTO extends RepresentationModel<ReporteDTO>{
     private String tipo;
     private String descripcion;
     private Double total;
